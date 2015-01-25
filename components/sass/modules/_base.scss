@@ -1,5 +1,16 @@
 body {
   font: $mainFont;
   background: $backgroundColor;
-  clor: $typeDefault;
+  color: $typeDefault;
 } 
+//h1,h2,h3,h4,h5,h6
+#{headings()}{
+  font: $headFont;
+  background: $headColor;
+  font-weight: $bold;
+}
+
+P {
+  font-weight:$thin;
+  padding-bottom: 10px;
+}
