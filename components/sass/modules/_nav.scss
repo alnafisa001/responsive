@@ -6,8 +6,9 @@ header #nav {
 
   .navbar {
     @include container;
+    
     .brand {
-      @include span(4);
+    @include span(4);
       float: left;
       font-weight: $bold;
       font-family: $headFont;
